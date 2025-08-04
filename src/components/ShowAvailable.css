@@ -1,0 +1,33 @@
+.avail_card {
+    position: relative;
+    top: 0%;
+    background-color: orange;
+
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 20px;
+
+    margin: 20px;
+    border-radius: 10px;
+
+    border: 0px;
+}
+
+.avail_card:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+.list_grid {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-self: flex-start;
+  backdrop-filter: blur(10px);
+  width: max-content;
+  border-radius: 20px;
+}
+

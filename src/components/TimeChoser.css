@@ -1,0 +1,10 @@
+.choose_line {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.time_square {
+    width: 30px;
+    height: 30px;
+}

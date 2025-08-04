@@ -1,0 +1,36 @@
+.background { 
+    background-image: url("personback.jpg");
+  
+    height: 100vh;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.Timerow {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-left: 25%;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.dayname {
+    color: rgb(222, 222, 89);
+    font-size: 30px;
+    width: 150px;
+}
+
+.headig {
+    font-size: 70px;
+    color: rgb(218, 206, 255);
+}
